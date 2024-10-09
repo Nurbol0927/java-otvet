@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вопросы по Java</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        header {
+            background: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #0056b3;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        .qa {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            background-color: #e9ecef;
+            transition: background-color 0.3s;
+        }
+        .qa:hover {
+            background-color: #d1e7dd;
+        }
+        .question {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+        .answer {
+            margin-top: 5px;
+            color: #555;
+            font-size: 0.95em;
+        }
+        @media (max-width: 600px) {
+            header {
+                padding: 15px;
+            }
+            .container {
+                padding: 15px;
+            }
+            .question {
+                font-size: 1em;
+            }
+            .answer {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Вопросы по Java</h1>
+</header>
+
+<div class="container">
+    <div class="qa">
+        <div class="question">1. Что такое алгоритм?</div>
+        <div class="answer">Алгоритм — это последовательность шагов, которые необходимо выполнить для достижения определенной цели.</div>
+    </div>
+    <div class="qa">
+        <div class="question">2. Почему мы используем комментарии в Java? Какие типы комментариев существуют?</div>
+        <div class="answer">Комментарии используются для пояснения кода. В Java есть однострочные (//) и многострочные (/* ... */) комментарии.</div>
+    </div>
+    <div class="qa">
+        <div class="question">3. Что такое переменные?</div>
+        <div class="answer">Переменные — это именованные области памяти, которые хранят данные и могут изменяться во время выполнения программы.</div>
+    </div>
+    <div class="qa">
+        <div class="question">4. Какие существуют примитивные типы данных? В чем их разница?</div>
+        <div class="answer">Примитивные типы данных в Java: int, char, boolean, double и другие. Разница между ними в размере и типе хранимых данных.</div>
+    </div>
+    <div class="qa">
+        <div class="question">5. Что такое инкремент и декремент?</div>
+        <div class="answer">Инкремент (++) увеличивает значение переменной на 1, а декремент (--) уменьшает его на 1.</div>
+    </div>
+    <div class="qa">
+        <div class="question">6. Методы класса Math.</div>
+        <div class="answer">Класс Math содержит методы для математических операций, такие как sqrt(), pow(), max() и min().</div>
+    </div>
+    <div class="qa">
+        <div class="question">7. Что такое Random? Как мы можем его использовать?</div>
+        <div class="answer">Random — это класс для генерации случайных чисел. Мы можем использовать его для создания случайных значений.</div>
+    </div>
+    <div class="qa">
+        <div class="question">8. Что такое строка? В чем разница между String и char?</div>
+        <div class="answer">String — это последовательность символов, а char — это один символ. String представляет собой массив char.</div>
+    </div>
+    <div class="qa">
+        <div class="question">9. Какие существуют условные операторы в Java?</div>
+        <div class="answer">В Java существуют условные операторы if, else, switch и тернарный оператор.</div>
+    </div>
+    <div class="qa">
+        <div class="question">10. Сколько частей в тернарном операторе?</div>
+        <div class="answer">Тернарный оператор состоит из трех частей: условия, значения, если условие истинно, и значения, если условие ложно.</div>
+    </div>
+    <div class="qa">
+        <div class="question">11. Что происходит, если мы не поставим оператор break в switch?</div>
+        <div class="answer">Если не поставить break, управление перейдет к следующему case, и будут выполняться все последующие операции до ближайшего break.</div>
+    </div>
+    <div class="qa">
+        <div class="question">12. Логические операторы.</div>
+        <div class="answer">Логические операторы в Java: && (AND), || (OR), ! (NOT).</div>
+    </div>
+    <div class="qa">
+        <div class="question">13. Сколько циклов существует в Java?</div>
+        <div class="answer">В Java существуют три основных цикла: for, while и do while.</div>
+    </div>
+    <div class="qa">
+        <div class="question">14. В чем разница между while и do while?</div>
+        <div class="answer">Цикл while проверяет условие перед выполнением, а do while — после, что гарантирует хотя бы одно выполнение блока кода.</div>
+    </div>
+    <div class="qa">
+        <div class="question">15. Какое условие использует цикл while?</div>
+        <div class="answer">Цикл while использует булевое условие, которое определяет, продолжать ли выполнение цикла.</div>
+    </div>
+    <div class="qa">
+        <div class="question">16. Что такое foreach?</div>
+        <div class="answer">Цикл foreach позволяет перебрать элементы коллекции или массива без необходимости использования индекса.</div>
+    </div>
+    <div class="qa">
+        <div class="question">17. В чем разница между for и foreach?</div>
+        <div class="answer">Цикл for используется для перебора с индексом, а foreach — для упрощенного перебора элементов коллекции или массива.</div>
+    </div>
+    <div class="qa">
+        <div class="question">18. Что такое массив?</div>
+        <div class="answer">Массив — это структура данных, которая хранит фиксированное количество элементов одного типа.</div>
+    </div>
+    <div class="qa">
+        <div class="question">19. Как узнать длину массива?</div>
+        <div class="answer">Длину массива можно узнать, используя свойство length: array.length.</div>
+    </div>
+    <div class="qa">
+        <div class="question">20. Можем ли мы создать массив без длины?</div>
+        <div class="answer">Нет, массив всегда должен иметь фиксированную длину при создании.</div>
+    </div>
+    <div class="qa">
+        <div class="question">21. Какие типы методов существуют?</div>
+        <div class="answer">Существует несколько типов методов: с возвращаемым значением и без, статические и нестатические, а также методы с переменным количеством аргументов (varargs).</div>
+    </div>
+    <div class="qa">
+        <div class="question">22. Что такое методы?</div>
+        <div class="answer">Методы — это блоки кода, которые выполняют определенные задачи и могут быть вызваны из других частей программы.</div>
+    </div>
+    <div class="qa">
+        <div class="question">23. Что такое varargs?</div>
+        <div class="answer">Varargs позволяет методу принимать переменное количество аргументов, что упрощает передачу данных.</div>
+    </div>
+    <div class="qa">
+        <div class="question">24. Расскажите о методах String.</div>
+        <div class="answer">Методы String позволяют выполнять различные операции со строками, такие как concat(), substring(), indexOf(), toUpperCase() и другие.</div>
+    </div>
+    <div class="qa">
+        <div class="question">25. Что такое условные операторы?</div>
+        <div class="answer">Условные операторы позволяют выполнять различные действия в зависимости от истинности условия.</div>
+    </div>
+    <div class="qa">
+        <div class="question">26. Что такое циклы?</div>
+        <div class="answer">Циклы позволяют повторять выполнение блока кода, пока выполняется определенное условие.</div>
+    </div>
+    <div class="qa">
+        <div class="question">27. В чем разница между циклом while и do while?</div>
+        <div class="answer">В цикле while условие проверяется перед выполнением, в do while — после, что обеспечивает хотя бы одно выполнение.</div>
+    </div>
+    <div class="qa">
+        <div class="question">28. В чем разница между циклом for и while?</div>
+        <div class="answer">Цикл for используется, когда известно количество итераций, while — когда количество итераций неизвестно.</div>
+    </div>
+    <div class="qa">
+        <div class="question">29. Зачем мы используем цикл foreach?</div>
+        <div class="answer">Цикл foreach упрощает перебор элементов коллекций и массивов, исключая необходимость в индексах.</div>
+    </div>
+    <div class="qa">
+        <div class="question">30. Что такое массив?</div>
+        <div class="answer">Массив — это структура данных, которая позволяет хранить несколько значений одного типа.</div>
+    </div>
+    <div class="qa">
+        <div class="question">31. Как узнать длину массива?</div>
+        <div class="answer">Длину массива можно получить с помощью свойства length.</div>
+    </div>
+    <div class="qa">
+        <div class="question">32. Как использовать элементы массива?</div>
+        <div class="answer">Элементы массива можно использовать, обращаясь к ним по индексу, например, array[0].</div>
+    </div>
+    <div class="qa">
+        <div class="question">33. Что такое методы в Java?</div>
+        <div class="answer">Методы — это блоки кода, которые выполняют определенные действия и могут возвращать значения.</div>
+    </div>
+    <div class="qa">
+        <div class="question">34. В чем разница между методом с возвращаемым типом и без?</div>
+        <div class="answer">Метод с возвращаемым типом возвращает значение, а метод без возвращает void и ничего не возвращает.</div>
+    </div>
+    <div class="qa">
+        <div class="question">35. Можем ли мы использовать несколько операторов return в методе?</div>
+        <div class="answer">Да, можно использовать несколько операторов return в методе с возвращаемым типом, но только один из них будет выполнен.</div>
+    </div>
+    <div class="qa">
+        <div class="question">36. Зачем мы используем varargs?</div>
+        <div class="answer">Varargs позволяет методу принимать переменное количество аргументов, что делает его более гибким.</div>
+    </div>
+    <div class="qa">
+        <div class="question">37. Расскажите о методах String.</div>
+        <div class="answer">Методы String включают concat(), substring(), indexOf(), trim(), и позволяют выполнять различные операции со строками.</div>
+    </div>
+</div>
+
+</body>
+</html>
